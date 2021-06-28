@@ -13,6 +13,17 @@
 		087B5904267647710095A70C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087B5903267647710095A70C /* Preview Assets.xcassets */; };
 		087B590F267647710095A70C /* WaterMelonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B590E267647710095A70C /* WaterMelonTests.swift */; };
 		087B591A267647710095A70C /* WaterMelonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B5919267647710095A70C /* WaterMelonUITests.swift */; };
+		087B5929267649F50095A70C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B5928267649F50095A70C /* GameScene.swift */; };
+		087B593026764BDA0095A70C /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 087B592D26764BD90095A70C /* win.mp3 */; };
+		087B593126764BDA0095A70C /* falldown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 087B592E26764BD90095A70C /* falldown.mp3 */; };
+		087B593226764BDA0095A70C /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 087B592F26764BD90095A70C /* bomb.mp3 */; };
+		087B59362676CC100095A70C /* FruitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B59352676CC100095A70C /* FruitFactory.swift */; };
+		087B59382676D0540095A70C /* GameScene+LoadUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B59372676D0540095A70C /* GameScene+LoadUI.swift */; };
+		087B593A2676D0B00095A70C /* GameScene+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B59392676D0B00095A70C /* GameScene+Touches.swift */; };
+		087B593D2676D2660095A70C /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B593C2676D2660095A70C /* Fruit.swift */; };
+		087B593F2676DC330095A70C /* GameScene+Collisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B593E2676DC330095A70C /* GameScene+Collisions.swift */; };
+		087B59412678EB4E0095A70C /* AudioFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B59402678EB4E0095A70C /* AudioFactory.swift */; };
+		087B5943267900470095A70C /* GameScene+RedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B5942267900470095A70C /* GameScene+RedLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		087B5915267647710095A70C /* WaterMelonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMelonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		087B5919267647710095A70C /* WaterMelonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMelonUITests.swift; sourceTree = "<group>"; };
 		087B591B267647710095A70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087B5928267649F50095A70C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		087B592D26764BD90095A70C /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		087B592E26764BD90095A70C /* falldown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falldown.mp3; sourceTree = "<group>"; };
+		087B592F26764BD90095A70C /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		087B59352676CC100095A70C /* FruitFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitFactory.swift; sourceTree = "<group>"; };
+		087B59372676D0540095A70C /* GameScene+LoadUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+LoadUI.swift"; sourceTree = "<group>"; };
+		087B59392676D0B00095A70C /* GameScene+Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Touches.swift"; sourceTree = "<group>"; };
+		087B593C2676D2660095A70C /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		087B593E2676DC330095A70C /* GameScene+Collisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Collisions.swift"; sourceTree = "<group>"; };
+		087B59402678EB4E0095A70C /* AudioFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFactory.swift; sourceTree = "<group>"; };
+		087B5942267900470095A70C /* GameScene+RedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+RedLine.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,10 @@
 		087B58FB267647700095A70C /* WaterMelon */ = {
 			isa = PBXGroup;
 			children = (
+				087B593B2676D23C0095A70C /* Models */,
+				087B59332676CBA00095A70C /* Factories */,
+				087B59272676498E0095A70C /* Scenes */,
+				087B592C26764BD90095A70C /* Sounds */,
 				087B58FC267647700095A70C /* WaterMelonApp.swift */,
 				087B58FE267647700095A70C /* ContentView.swift */,
 				087B5900267647710095A70C /* Assets.xcassets */,
@@ -128,6 +154,45 @@
 				087B591B267647710095A70C /* Info.plist */,
 			);
 			path = WaterMelonUITests;
+			sourceTree = "<group>";
+		};
+		087B59272676498E0095A70C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				087B5928267649F50095A70C /* GameScene.swift */,
+				087B59372676D0540095A70C /* GameScene+LoadUI.swift */,
+				087B59392676D0B00095A70C /* GameScene+Touches.swift */,
+				087B593E2676DC330095A70C /* GameScene+Collisions.swift */,
+				087B5942267900470095A70C /* GameScene+RedLine.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		087B592C26764BD90095A70C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				087B592D26764BD90095A70C /* win.mp3 */,
+				087B592E26764BD90095A70C /* falldown.mp3 */,
+				087B592F26764BD90095A70C /* bomb.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		087B59332676CBA00095A70C /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				087B59352676CC100095A70C /* FruitFactory.swift */,
+				087B59402678EB4E0095A70C /* AudioFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		087B593B2676D23C0095A70C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				087B593C2676D2660095A70C /* Fruit.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				087B5904267647710095A70C /* Preview Assets.xcassets in Resources */,
+				087B593226764BDA0095A70C /* bomb.mp3 in Resources */,
 				087B5901267647710095A70C /* Assets.xcassets in Resources */,
+				087B593026764BDA0095A70C /* win.mp3 in Resources */,
+				087B593126764BDA0095A70C /* falldown.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087B593A2676D0B00095A70C /* GameScene+Touches.swift in Sources */,
+				087B5929267649F50095A70C /* GameScene.swift in Sources */,
 				087B58FF267647700095A70C /* ContentView.swift in Sources */,
 				087B58FD267647700095A70C /* WaterMelonApp.swift in Sources */,
+				087B593D2676D2660095A70C /* Fruit.swift in Sources */,
+				087B59362676CC100095A70C /* FruitFactory.swift in Sources */,
+				087B59382676D0540095A70C /* GameScene+LoadUI.swift in Sources */,
+				087B593F2676DC330095A70C /* GameScene+Collisions.swift in Sources */,
+				087B5943267900470095A70C /* GameScene+RedLine.swift in Sources */,
+				087B59412678EB4E0095A70C /* AudioFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

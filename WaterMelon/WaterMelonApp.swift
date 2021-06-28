@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+let SCREEN = UIScreen.main.bounds
+
 @main
 struct WaterMelonApp: App {
     var body: some Scene {
@@ -15,3 +17,4 @@ struct WaterMelonApp: App {
         }
     }
 }
+
